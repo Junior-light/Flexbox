@@ -1,0 +1,1 @@
+display: flex; Agrupa os elementos filhos e os transformam de modo que vão respeitar o tamanho proporcional ao seu conteúdo. 

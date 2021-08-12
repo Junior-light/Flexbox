@@ -1,0 +1,50 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.flex-container{
+    display: flex;
+    list-style: none;
+}
+
+.flex-item{
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    margin: 5px;
+    font-size: 20px;
+    color: #ccc;
+    text-align: center;
+}
+
+.row{
+    flex-direction: row;
+}
+.row li{
+    background-color: blue;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.row-reverse li{
+    background-color: red;
+}
+
+.column{
+    flex-direction: column;
+    float: left;
+}
+.column li{
+    background-color: yellow;
+}
+
+.column-reverse{
+    flex-direction: column-reverse;
+    float: right;
+}
+.column-reverse li{
+    background-color: green;
+}

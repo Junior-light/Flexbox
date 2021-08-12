@@ -1,0 +1,17 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+.flex{
+    max-width: 600px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.item{
+    background-color: cadetblue;
+    margin: 5px;
+}
