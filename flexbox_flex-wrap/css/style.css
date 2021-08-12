@@ -1,3 +1,4 @@
+/*classes somente para cor*/
 .blue{
     background-color: lightblue;
 }
@@ -14,14 +15,18 @@
     background-color: yellow;
 }
 
+
+/*nowrap*/
 .nowrap{
     flex-wrap: nowrap;
 }
 
+/*wrap*/
 .wrap{
     flex-wrap: wrap;
 }
 
+/*wrap-reverse*/
 .wrap-reverse{
     flex-wrap: wrap-reverse;
 }
