@@ -6,4 +6,7 @@ Principais Propriedades do Flexbox.
     É a propriedade que determina a direção da ordem dos elementos filhos.
 
 3 - flex-wrap: ... ;
-    É a propriedade que determina, se haverá e qual será o ação da quedra de linha do elemento.
+    É a propriedade que determina, se haverá e qual será a ação da quedra de linha do elemento.
+
+3 - flex-flow: ... ;
+    É a propriedade que une a funcionalidade do flex-direction e do flex-flow em uma só.
