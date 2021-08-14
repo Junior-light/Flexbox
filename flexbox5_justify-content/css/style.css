@@ -1,0 +1,78 @@
+/*set do style padrão*/
+body{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width:1000px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/*classes somente para cor*/
+.blue{
+    background-color: lightblue;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+section{
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+section h2{
+    font-size: 30px;
+    margin: 10px 0;
+    color: brown;
+}
+
+.flex-container{
+    display: flex;
+    height: 150px;
+    width: 300px;
+    margin: 0 auto 250px auto;
+    border: 2px solid black;
+}
+
+.item{
+    font-size: 24px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    max-width: 50px;
+    min-width: 50px;
+    border: 2px dotted grey;
+}
+
+
+/*utilizando o jutify-content*/
+.flex-start{
+    justify-content: flex-start;
+}
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
