@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>flex-grow</title>
+</head>
+<body>
+
+    <section>
+
+        <h1>flex-grow: ...;</h1>
+
+        <h2>flex-grow-0</h2>
+        <div class="flex-container">
+
+            <div class="item blue flex-grow-0">
+                <div></div>
+                <div></div>
+            </div>
+            <div class="item blue flex-grow-0">
+                0
+            </div>
+            <div class="item blue flex-grow-0">
+                0
+            </div>
+
+        </div><!--flex-container flex-grow-0-->
+
+        <h2>flex-grow-1</h2>
+        <div class="flex-container">
+
+            <div class="item green flex-grow-1">
+                1
+            </div>
+            <div class="item green flex-grow-1">
+                1
+            </div>
+            <div class="item green flex-grow-1">
+                1
+            </div>
+
+        </div><!--flex-container flex-grow-1-->
+
+        <h2>flex-grow-1 + 2</h2>
+        <div class="flex-container">
+
+            <div class="item green flex-grow-1">
+                1
+            </div>
+            <div class="item yellow flex-grow-2">
+                2
+            </div>
+            <div class="item green flex-grow-1">
+                1
+            </div>
+            
+        </div><!--flex-container flex-grow-2-->
+
+        <h2>flex-grow-1 + 2 + 3</h2>
+        <div class="flex-container">
+
+            <div class="item green flex-grow-1">
+                1
+            </div>
+            <div class="item yellow flex-grow-2">
+                2
+            </div>
+            <div class="item orange flex-grow-3">
+                3
+            </div>
+            <div class="item yellow flex-grow-2">
+                2
+            </div>
+            <div class="item green flex-grow-1">
+                1
+            </div>
+
+        </div><!--flex-container flex-grow-3-->
+
+    </section>
+
+</body>
+</html>
