@@ -1,3 +1,12 @@
+/*set do style padrão*/
+body{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width:1000px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
 /*classes somente para cor*/
 .blue{
     background-color: lightblue;
@@ -15,32 +24,58 @@
     background-color: yellow;
 }
 
-
-/*nowrap*/
-.nowrap{
-    flex-wrap: nowrap;
+section{
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: gainsboro;
 }
 
-/*wrap*/
-.wrap{
-    flex-wrap: wrap;
-}
-
-/*wrap-reverse*/
-.wrap-reverse{
-    flex-wrap: wrap-reverse;
+section h2{
+    font-size: 30px;
+    margin: 10px 0;
+    color: brown;
 }
 
 .flex-container{
     display: flex;
     height: 150px;
-    max-width: 300px;
+    width: 300px;
+    margin: 0 auto 250px auto;
     border: 2px solid black;
 }
 
 .item{
     font-size: 24px;
-    height: 50%;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-    min-width: 100px;
+    max-width: 50px;
+    min-width: 50px;
+    border: 2px dotted grey;
+}
+
+
+/*utilizando o flex-flow*/
+.row_nowrap{
+    flex-flow: row nowrap;
+}
+
+.row_wrap{
+    flex-flow: row wrap;
+}
+.row-reverse_wrap-reverse{
+    flex-flow: row-reverse wrap-reverse;
+}
+
+.column_nowrap{
+    flex-flow: column nowrap;
+}
+
+.column_wrap{
+    flex-flow: column wrap;
+}
+
+.column-reverse_wrap-reverse{
+    flex-flow: column-reverse wrap-reverse;
 }
