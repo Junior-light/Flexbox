@@ -39,7 +39,7 @@ section h2{
 
 .flex-container{
     display: flex;
-    height: 150px;
+    height: 300px;
     width: 300px;
     margin: 0 auto 250px auto;
     border: 2px solid black;
@@ -75,4 +75,8 @@ section h2{
 
 .space-around{
     justify-content: space-around;
+}
+
+.column{
+    flex-direction: column;
 }
