@@ -1,0 +1,96 @@
+/*set do style padrão*/
+body{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width:1000px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/*classes somente para cor*/
+.blue{
+    background-color: lightblue;
+}
+
+.green{
+    background-color: lightgreen;
+}
+
+.orange{
+    background-color: orangered;
+}
+
+.yellow{
+    background-color: yellow;
+}
+
+/*estilização básica*/
+section{
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+section h1{
+    font-size: 50px;
+}
+
+section h2{
+    font-size: 30px;
+    margin: 10px 0;
+    color: brown;
+}
+
+/***inicio contúdo***/
+.flex-container{
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto 250px auto;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.item{
+    font-size: 24px;
+    text-align: justify;
+    margin: 5px;
+    padding: 20px;
+    border: 2px dotted grey;
+}
+
+
+/*utilizando o align-itens*/
+.stretch{
+    align-items: stretch;
+}
+
+.center{
+    align-items: center;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/*alinhamento totalmente centralizado*/
+.central{
+    height: calc( auto + 20px);
+    justify-content: center;
+}
+
+.central .item{
+    flex: 0;
+}

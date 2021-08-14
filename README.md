@@ -14,3 +14,6 @@ Principais Propriedades do Flexbox.
 
 5 - justify-content: ... ;
     É a propriedade que alinha os itens filhos,seguindo a direção pretendida, e trata da distribuição de espaçamento entre eles.
+
+6 - aligm-items: ... ;
+    É a propriedade que permite o alinhamento central dos elementos filhos, de acordo com o eixo vertical do elemento pai. O alinhamento é diferente quando os itens estão em coluna ou linhas. 
