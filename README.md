@@ -16,4 +16,7 @@ Principais Propriedades do Flexbox.
     É a propriedade que alinha os itens filhos,seguindo a direção pretendida, e trata da distribuição de espaçamento entre eles.
 
 6 - align-items: ... ;
-    É a propriedade que permite o alinhamento central dos elementos filhos, de acordo com o eixo vertical do elemento pai. O alinhamento é diferente quando os itens estão em coluna ou linhas. 
+    É a propriedade que permite o alinhamento central dos elementos filhos, de acordo com o eixo horizontal do elemento pai. O alinhamento é diferente quando os itens estão em coluna ou linhas. 
+
+7 - align-content: ... ;
+    É a propriedade que permite o alinhamento central dos elementos filhos, de acordo com o eixo vertical do elemento pai. O alinhamento é diferente quando os itens estão em coluna ou linhas.
