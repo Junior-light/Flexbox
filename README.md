@@ -32,3 +32,6 @@ Principais Propriedades do Flexbox.
 
 11 - flex: (grow , shrink , basis) ;
     É basicamento um atalho para as propriedades grow, basis e shrink.
+
+12 - order: ... ;
+    É basicamento para setar a ordem do flex itens.
