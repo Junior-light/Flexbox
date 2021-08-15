@@ -23,3 +23,6 @@ Principais Propriedades do Flexbox.
 
 7 - flex-grow: ... ;
     Define o crescimento dos itens, respeitando o tamanho do conteúdo interno. Não funciona com o justify-content no flex container.
+
+8 - flex-basis: ... ;
+    Define o crescimento dos itens, respeitando o tamanho do conteúdo interno. Não funciona com o justify-content no flex container.
