@@ -1,0 +1,79 @@
+/*set do style padrão*/
+body{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width:1000px;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+/*estilização básica*/
+section{
+    width: 100%;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: gainsboro;
+}
+
+section h1{
+    font-size: 50px;
+}
+
+section h2{
+    font-size: 30px;
+    margin: 10px 0;
+    color: brown;
+}
+
+/***inicio contúdo***/
+.flex-container{
+    display: flex;
+    max-width: 500px;
+    margin: 0 auto 250px auto;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.item{
+
+    font-size: 24px;
+    text-align: center;
+    margin: 3px;
+    border: 2px dotted grey;
+    border-radius: 5px;
+    background-color: coral;
+}
+
+.align{
+    align-items: center;
+}
+
+.direction{
+    flex-direction: column;
+}
+
+/*utilizando o align-self*/
+.auto{
+    align-self: auto;
+}
+
+.center{
+    align-self: center;
+}
+
+.start{
+align-self: flex-start;
+}
+
+.end{
+    align-self: flex-end;
+}
+
+.baseline{
+    align-self: baseline;
+}    
+
+.baseline{
+    align-self: stretch;
+}    

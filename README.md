@@ -35,3 +35,6 @@ Principais Propriedades do Flexbox.
 
 12 - order: ... ;
     É basicamento para setar a ordem do flex itens.
+
+13 - align-self: ... ;
+    É basicamento para alinhar individualmente um item.
