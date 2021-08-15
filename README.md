@@ -21,8 +21,11 @@ Principais Propriedades do Flexbox.
 7 - align-content: ... ;
     É a propriedade que permite o alinhamento central dos elementos filhos, de acordo com o eixo vertical do elemento pai. O alinhamento é diferente quando os itens estão em coluna ou linhas.
 
-7 - flex-grow: ... ;
+8 - flex-grow: ... ;
     Define o crescimento dos itens, respeitando o tamanho do conteúdo interno. Não funciona com o justify-content no flex container.
 
-8 - flex-basis: ... ;
+9 - flex-basis: ... ;
     Define o crescimento dos itens, respeitando o tamanho do conteúdo interno. Não funciona com o justify-content no flex container.
+
+10 - flex-shrink: ... ;
+    Define a capacidade de redução ou compressão do tamanho de um item.

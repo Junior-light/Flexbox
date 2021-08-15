@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>flex-shrink</title>
+</head>
+<body>
+
+    <section>
+
+        <h1>flex-shrink: ...;</h1>
+
+        <h2>shrink auto</h2>
+        <div class="flex-container">
+
+            <div class="item green grow1 shrink1">A</div>
+            <div class="item blue grow1 shrink1">B</div>
+            <div class="item yellow grow1 shrink1">C</div>
+            <div class="item orange grow1 shrink1">D</div>
+            <div class="item green grow1 shrink1">A</div>
+            <div class="item blue grow1 shrink1">B</div>
+            <div class="item yellow grow1 shrink1">C</div>
+            <div class="item orange grow1 shrink1">D</div>
+            <div class="item green grow1 shrink1">A</div>
+            <div class="item blue grow1 shrink1">B</div>
+            <div class="item yellow grow1 shrink1">C</div>
+            <div class="item orange grow1 shrink1">D</div>
+
+        </div><!--flex-container-->    
+
+        <h2>shrink 0 + basis 100px</h2>
+        <div class="flex-container">
+
+            <div class="item grow1 shrink0 basis100 green">A</div>
+            <div class="item grow1 shrink0 basis100 blue">B</div>
+            <div class="item grow1 shrink0 basis100 yellow">C</div>
+            <div class="item grow1 shrink0 basis100 orange">D</div>
+
+        </div><!--flex-container-->    
+
+        <h2>shrink mixed + basis 100px</h2>
+        <div class="flex-container">
+
+            <div class="item grow1 sk2 basis100 green">A</div>
+            <div class="item grow1 shrink1 basis100 blue">B</div>
+            <div class="item grow1 sk3 basis100 yellow">Texto de tamanho grande</div>
+            <div class="item grow1 sk2 basis100 orange">D</div>
+
+        </div><!--flex-container-->    
+
+    </section>
+
+</body>
+</html>
