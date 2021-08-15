@@ -29,3 +29,6 @@ Principais Propriedades do Flexbox.
 
 10 - flex-shrink: ... ;
     Define a capacidade de redução ou compressão do tamanho de um item.
+
+11 - flex: (grow , shrink , basis) ;
+    É basicamento um atalho para as propriedades grow, basis e shrink.
